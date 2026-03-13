@@ -8,5 +8,4 @@ services:
       - ./test-results:/app/test-results
       - ./playwright-report:/app/playwright-report
       - ./:/app
-    # aguarda o app ficar disponível e executa os testes; grava relatórios nas pastas montadas
     command: npm run pageObjects-chrome
